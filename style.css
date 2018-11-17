@@ -2,10 +2,9 @@ body {
     padding: 3%;
     display: grid;
     justify-items: center;
-    background-color: #cbf1f5;
+    background-image: linear-gradient(to right bottom, white, #71c9ce);
     font-family: 'Source Sans Pro', sans-serif;
     color: #4e4e4e;
-    
 }
 
 #title {
@@ -13,10 +12,13 @@ body {
     text-align: center;
     align-self: center;
     border-bottom: 5px solid #71c9ce;
+    text-transform: uppercase;
+    margin-bottom: 35px;
 }
 
 #title h1 {
     font-size: 4vw;
+    letter-spacing: 5px;
 }
 
 
@@ -24,7 +26,7 @@ body {
     grid-area: image;
     max-width: 100%;
     align-self: center;
-    padding-top: 14px;
+    padding-top: 40px;
 }
 
 #tribute-info {
@@ -57,15 +59,15 @@ img {
 .container {
     width: 80%;
     display: grid;
-    
     gap: 60px;
     grid-template-areas: 
     "image header" 
     "content content"
     "footer footer";
-    background-color: #e3fdfd;
+    background-color: #fff;
     padding: 2% 5% 5% 5%;
     justify-items: center;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 700px) {
